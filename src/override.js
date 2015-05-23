@@ -21,7 +21,7 @@ Cell.prototype.draw = (function (original) {
     } else if (this.size > mySize * 2) {
       this.color = "#FF0000"; // Cells that can split on us are red
     } else if (this.size > mySize) {
-      this.color = "#FF6600"; // Cells that can eat us are orange
+      this.color = "##FFAF00"; // Cells that can eat us are orange
     } else if (this.size > mySize / 2) {
       this.color = "#FFFF00"; // Cells that we can eat are yellow
     } else {
